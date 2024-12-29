@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .navbar-logo{
+        width: 6rem !important;
+        height: 6rem !important;
+        object-fit: cover !important;
+        @apply sm: w-3/4;
+    }
+
+    .h1 {
+        @apply text-[34px] leading-[42px] font-bold;
+      }
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* //Example of using @apply in SCSS */
+.button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded;
+}

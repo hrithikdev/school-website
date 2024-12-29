@@ -1,7 +1,13 @@
 {
+  "scripts": {
+    "build:css": "sass scss/bootstrap/scss/custom.scss dist/custom.css --no-source-map && npx postcss dist/custom.css -o dist/custom.css"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "sass": "^1.83.0"
   }
 }

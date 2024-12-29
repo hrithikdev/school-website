@@ -6,3 +6,12 @@ module.exports = {
   },
   plugins: [],
 };
+
+
+// module.exports = {
+//   content: ['./scss/bootstrap/**/*.{html,js,jsx,ts,tsx}', './index.html'],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// };

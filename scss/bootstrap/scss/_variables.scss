@@ -450,14 +450,14 @@ $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
-$font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
-  6: $h6-font-size
-) !default;
+// $font-sizes: (
+//   1: $h1-font-size,
+//   2: $h2-font-size,
+//   3: $h3-font-size,
+//   4: $h4-font-size,
+//   5: $h5-font-size,
+//   6: $h6-font-size
+// ) !default;
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
@@ -470,14 +470,14 @@ $headings-color:              null !default;
 // scss-docs-end headings-variables
 
 // scss-docs-start display-headings
-$display-font-sizes: (
-  1: 5rem,
-  2: 4.5rem,
-  3: 4rem,
-  4: 3.5rem,
-  5: 3rem,
-  6: 2.5rem
-) !default;
+// $display-font-sizes: (
+//   1: 5rem,
+//   2: 4.5rem,
+//   3: 4rem,
+//   4: 3.5rem,
+//   5: 3rem,
+//   6: 2.5rem
+// ) !default;
 
 $display-font-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
